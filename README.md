@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 -->
-# <img width="10%" title="Logo" alt="Logo" src="./images/Logo500x500.png"> Microlithix
+# <table><tr><td width="100"><img title="Logo" alt="Logo" src="./images/Logo500x500.png"></td><td>Microlithix</td></tr></table>
 <!-- markdownlint-enable MD033 -->
 
 ## Packages
