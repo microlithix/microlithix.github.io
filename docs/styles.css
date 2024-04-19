@@ -1,0 +1,123 @@
+/*-------------------------------------------------------*/
+/* Font Settings                                         */
+/*-------------------------------------------------------*/
+
+html {
+    font-family: "Segoe UI"
+}
+
+a.symbollink {
+    font-size: 200%;
+}
+
+.banner {
+    font-family: verdana;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------------*/
+/* Layout Settings                                         */
+/*                                                         */
+/* References:                                             */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/*---------------------------------------------------------*/
+
+table, tr, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+th, td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+th {
+    height: 4em;
+}
+
+a.symbollink:link {
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3em;
+}
+
+.banner-icon {
+    text-align: center;
+    margin-left: 0.5em;
+    height: 2em;
+}
+
+.banner-text {
+    margin-left: 1em;
+}
+
+.body {
+    margin: auto;
+    width: 80%;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* Color Settings                                                                 */
+/*                                                                                */
+/* References:                                                                    */
+/* https://m2.material.io/design/color/the-color-system.html#color-theme-creation */
+/*--------------------------------------------------------------------------------*/
+
+body {
+    color: rgb(33, 37, 41);
+}
+
+table, tr, th, td {
+    border-color: gray;
+}
+
+th {
+    background-color: #81D4FA;
+}
+
+a:hover {
+    background-color: lightgrey;    
+}
+
+.banner {
+    background-image: linear-gradient(#C8C8C8, #A8A8A8);
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+  		background-color: rgb(33, 37, 41);
+        color: antiquewhite;
+	}
+
+    a {
+        color: #4FC3F7;
+    }
+
+    table, tr, th, td {
+        border-color: gray;
+    }
+
+    th {
+        background-color: #01579B;
+    }
+
+    a:hover {
+        background-color: darkslategray;    
+    }
+    
+    .banner {
+        background-image: linear-gradient(#5A5A5A, #404040);
+    }
+}

@@ -1,7 +1,3 @@
-# Microlithix
+# Microlithix Home Page
 
-## Packages
-
-Package | Documentation | Repository
---------|---------------|-----------
-AnsiParser | <https://www.microlithix.com/AnsiParser> | <https://github.com/microlithix/AnsiParser>
+This repository holds the source code for building the Microlithix home page.
