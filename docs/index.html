@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <title>Microlithix</title>
+    <link rel="icon" href="../images/Logo.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="banner">
-    <img class="banner-icon" src="images/Logo.svg"><div class="banner-text">Microlithix</div>
+<svg style="display:none;">
+    <symbol id="package" viewBox="0 0 32 32"">
+        <rect width="28" height="20" x="2" y="6" />
+        <path d="M 2,26 13,15" />
+        <path d="M 30,26 19,15" />
+        <path d="M 30,6 16,17 2,6" />
+    </symbol>
+    <symbol id="document" viewBox="0 0 32 32">
+        <path d="m 6,2 h 13 v 8 h 7 V 30 H 6 Z" />
+        <path d="m 19,2 7,8" />
+        <path style="stroke-linecap:butt"
+            d="M 9,14 H 23 M 9,26 H 23 M 9,18 H 23 M 9,22 H 23 M 9,6 h 8 m -8,4 h 8" />
+    </symbol>
+    <symbol id="repository" viewBox="0 0 32 32">
+        <path d="M 27,8 V 24" />
+        <path d="M 5,8 V 24" />
+        <ellipse ry="4" rx="11" cy="8" cx="16" />
+        <path d="m 27,24 c 0,2.209139 -4.924868,4 -11,4 C 9.9248678,28 5,26.209139 5,24" />
+        <path d="m 27,16 c 0,2.209139 -4.924868,4 -11,4 C 9.924868,20 5,18.209139 5,16" />
+    </symbol>
+</svg>
+
+<div class="page">
+    <div class="banner">
+        <img class="banner-icon" src="images/Logo.svg"><div class="banner-text">Microlithix</div>
+    </div>
+    <div class="menu">
+        <a href="https://github.com/microlithix">
+            <div class="menu-item">GitHub profile</div>
+        </a>
+        <a href="https://www.nuget.org/profiles/Microlithix">
+            <div class="menu-item">NuGet profile</div>
+        </a>
+    </div>
+    <div class="content">
+        <div class="packages">
+            <h2>Packages</h2>
+
+            <table width="100%" align="center">
+                <tr>
+                    <th align="left">Package Name</th>
+                    <th align="left">Description</th>
+                    <th>Package</th>
+                    <th>Documentation</th>
+                    <th>Repository</th>
+                </tr>
+                <tr>
+                    <td>AnsiParser</td>
+                    <td>ANSI escape sequence parser</td>
+                    <td class="table-button">
+                        <a href="https://www.nuget.org/packages/Microlithix.AnsiParser">
+                            <svg class="icon"><use xlink:href="#package"/></svg>
+                        </a>
+                    </td>
+                    <td class="table-button">
+                        <a href="https://www.microlithix.com/AnsiParser">
+                            <svg class="icon"><use xlink:href="#document"/></svg>
+                        </a>
+                    </td>
+                    <td class="table-button">
+                        <a href="https://github.com/microlithix/AnsiParser">
+                            <svg class="icon"><use xlink:href="#repository"/></svg>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 Microlithix
+    </div>
 </div>
-
-<br><br><br>
-
-<div class="body">
-    <h2>Packages</h2>
-
-    <table width="100%" align="center">
-        <tr>
-            <th align="left">Package Name</th>
-            <th align="left">Description</th>
-            <th>Documentation</th>
-            <th>Repository</th>
-        </tr>
-        <tr>
-            <td>AnsiParser</td>
-            <td>ANSI escape sequence parser</td>
-            <td align="center"><a class="symbollink" href="https://www.microlithix.com/AnsiParser"/>🗎</td>
-            <td align="center"><a class="symbollink" href="https://github.com/microlithix/AnsiParser"/>🗄</td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <a href="https://github.com/microlithix" style="float:right">GitHub profile</a>
-</div>
-
 </body>
 </html>
+
+<!-- Unicode link icons: 🖂 🗎 🗄 -->
