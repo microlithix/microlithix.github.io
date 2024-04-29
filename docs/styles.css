@@ -139,6 +139,14 @@ th {
     stroke-linejoin: round;
 }
 
+symbol {
+    shape-rendering: inherit;
+    fill: inherit;
+    stroke-width: inherit;
+    stroke-linecap: inherit;
+    stroke-linejoin: inherit;
+}
+
 /*--------------------------------------------------------------------------------*/
 /* Color Settings                                                                 */
 /*                                                                                */
